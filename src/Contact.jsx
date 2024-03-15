@@ -12,14 +12,14 @@ const Contact = () => {
                 <p>
                     <span style={{fontWeight: "bold"}}>Monday - Friday Hours</span>
                     <br />
-                    6:00am - 4:30pm PST
+                    6:00am – 4:30pm PST
                 </p>
                 <p style={{fontStyle: "italic", textDecoration: "underline"}}>(Speak with a customer support representative or submit an email inquiry.)</p>
 
                 <p>
                 <span style={{fontWeight: "bold"}}>Saturday & Sunday Hours</span>
                     <br />
-                    6:00am - 2:30pm PST
+                    6:00am – 2:30pm PST
                 </p>
                 <p>(Email inquiries only.)</p>
 

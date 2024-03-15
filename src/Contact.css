@@ -73,6 +73,7 @@
         font-style: italic;
         width: 450px;
         font-size: 18px;
+        transition: box-shadow 0.3s ease-in-out;
 
     }
 
@@ -132,6 +133,9 @@
     .Contact h2 {
         font-size: 40px;
         margin-bottom: 50px;
+        color: #ff9a30;
+        font-weight: bold;
+        
     }
 }
 /*----------------------- Desktop ------------------------ */
@@ -269,5 +273,6 @@
     .Contact h2 {
         font-size: 80px;
         margin-bottom: 50px;
+
     }
 }
