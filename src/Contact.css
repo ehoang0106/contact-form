@@ -1,0 +1,230 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media (min-width: 1199px) {
+    .Contact {
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        width: 1200px;
+        height: 800px;
+        justify-content: center;
+    }
+
+    /* --------------- LEFT --------------- */
+
+    .contact-left {
+        flex: 50%;
+        padding: 30px;
+    }
+
+    .contact-left p {
+        font-size: 20px;
+    }
+
+    .contact-left ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .contact-left li {
+        font-weight: 600;
+        margin-bottom: 13px;
+    }
+
+    .contact-left svg {
+        margin-right: 12px;
+        background-color: rgba(224, 111, 36, 1);
+        color: #fff;
+        border-radius: 20px;
+        padding: 5px;
+
+    }
+
+    .contact-left a {
+        color: rgba(224, 111, 36, 1);
+    }
+
+    /* --------------- RIGHT --------------- */
+
+    .contact-right {
+        flex: 50%;
+        padding: 30px;
+
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form input {
+        border-radius: 20px;
+        padding: 12px;
+        margin-bottom: 10px;
+        border: 0;
+        background-color: #f0f1f4;
+        font-style: italic;
+        width: 450px;
+    }
+
+    .contact-form textarea {
+        border-radius: 20px;
+        padding: 12px;
+        margin-bottom: 10px;
+        border: 0;
+        background-color: #f0f1f4;
+        font-style: italic;
+        width: 450px;
+        resize: none;
+
+    }
+
+    .contact-form button {
+        width: 210px;
+        padding: 15px;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+        color: #fff;
+        background-image: linear-gradient(to right, rgba(255, 154, 48, 1) 0%, rgba(224, 111, 36, 1) 100%);
+        transition: all 0.5s ease-in-out;
+        letter-spacing: 1px;
+        margin-top: 15px;
+
+
+    }
+
+    .contact-form button:hover {
+
+        transition: all 0.5s ease-in-out;
+        background-image: linear-gradient(to left, rgba(255, 154, 48, 1) 0%, rgba(224, 111, 36, 1) 100%);
+        letter-spacing: 3px;
+    }
+
+
+
+    .Contact h2 {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+}
+
+
+/* Mobile */
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media (max-width: 1198px) {
+    .Contact {
+        padding: 10px;
+        margin: 10px;
+        display: block;
+        width: 1200px;
+        height: 800px;
+        justify-content: center;
+    }
+
+    /* --------------- LEFT --------------- */
+
+    .contact-left {
+        flex: 50%;
+        padding: 30px;
+    }
+
+    .contact-left p {
+        font-size: 20px;
+    }
+
+    .contact-left ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .contact-left li {
+        font-weight: 600;
+        margin-bottom: 13px;
+    }
+
+    .contact-left svg {
+        margin-right: 12px;
+        background-color: rgba(224, 111, 36, 1);
+        color: #fff;
+        border-radius: 20px;
+        padding: 5px;
+
+    }
+
+    .contact-left a {
+        color: rgba(224, 111, 36, 1);
+    }
+
+    /* --------------- RIGHT --------------- */
+
+    .contact-right {
+        flex: 50%;
+        padding: 30px;
+
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form input {
+        border-radius: 20px;
+        padding: 12px;
+        margin-bottom: 10px;
+        border: 0;
+        background-color: #f0f1f4;
+        font-style: italic;
+        width: 450px;
+    }
+
+    .contact-form textarea {
+        border-radius: 20px;
+        padding: 12px;
+        margin-bottom: 10px;
+        border: 0;
+        background-color: #f0f1f4;
+        font-style: italic;
+        width: 450px;
+        resize: none;
+
+    }
+
+    .contact-form button {
+        width: 210px;
+        padding: 15px;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+        color: #fff;
+        background-image: linear-gradient(to right, rgba(255, 154, 48, 1) 0%, rgba(224, 111, 36, 1) 100%);
+        transition: all 0.5s ease-in-out;
+        letter-spacing: 1px;
+        margin-top: 15px;
+
+
+    }
+
+    .contact-form button:hover {
+
+        transition: all 0.5s ease-in-out;
+        background-image: linear-gradient(to left, rgba(255, 154, 48, 1) 0%, rgba(224, 111, 36, 1) 100%);
+        letter-spacing: 3px;
+    }
+
+
+
+    .Contact h2 {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+}
+
+
