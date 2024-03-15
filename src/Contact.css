@@ -2,7 +2,11 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-@media (min-width: 1199px) {
+
+/*----------------------- Desktop ------------------------ */
+
+
+@media only screen and (min-width: 1199px) {
     .Contact {
         padding: 10px;
         margin: 10px;
@@ -68,13 +72,13 @@
         font-style: italic;
         width: 450px;
         font-size: 18px;
-    
+
     }
 
     .contact-form input:focus {
         outline: none;
         transition: box-shadow 0.3s ease-in-out;
-        box-shadow: 0px 0px 20px #ff9a30 ;
+        box-shadow: 0px 0px 20px #ff9a30;
     }
 
     .contact-form textarea {
@@ -93,7 +97,7 @@
 
     .contact-form textarea:focus {
         transition: box-shadow 0.3s ease-in-out;
-        box-shadow: 0px 0px 20px #ff9a30 ;
+        box-shadow: 0px 0px 20px #ff9a30;
     }
 
     .contact-form button {
@@ -113,8 +117,13 @@
 
     .contact-form button:hover {
         letter-spacing: 4px;
-        transition: all 0.4s ease-in-out;
-        box-shadow: 0px 0px 20px #ff9a30, 0px 0px 20px #ff9a30 ;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0px 0px 20px #ff9a30, 0px 0px 20px #ff9a30;
+    }
+
+    .contact-form button:focus {
+        outline: none;
+        box-shadow: 0px 0px 20px #ff9a30, 0px 0px 20px #ff9a30;
     }
 
 
@@ -124,15 +133,13 @@
         margin-bottom: 50px;
     }
 }
+/*----------------------- Desktop ------------------------ */
 
 
-/* Mobile */
+/*----------------------- Mobile ------------------------ */
 
-* {
-    font-family: 'Quicksand', sans-serif;
-}
 
-@media (max-width: 1198px) {
+@media only screen and (max-width: 1198px) {
     .Contact {
         padding: 10px;
         margin: 10px;
@@ -146,10 +153,11 @@
     .contact-left {
         flex: 50%;
         padding: 30px;
+        margin-bottom: 50px;
     }
 
     .contact-left p {
-        font-size: 20px;
+        font-size: 50px;
     }
 
     .contact-left ul {
@@ -160,7 +168,7 @@
     .contact-left li {
         font-weight: 600;
         margin-bottom: 13px;
-        font-size: 20px;
+        font-size: 50px;
     }
 
     .contact-left svg {
@@ -191,54 +199,72 @@
 
     .contact-form input {
         border-radius: 20px;
-        padding: 12px;
-        margin-bottom: 10px;
+        padding: 15px 25px;
+        margin-bottom: 30px;
         border: 0;
         background-color: #f0f1f4;
         font-style: italic;
-        width: 450px;
+        width: 100%;
+        font-size: 40px;
+
+    }
+
+    .contact-form input:focus {
+        outline: none;
+        transition: box-shadow 0.3s ease-in-out;
+        box-shadow: 0px 0px 20px #ff9a30;
     }
 
     .contact-form textarea {
         border-radius: 20px;
-        padding: 12px;
+        padding: 15px 25px;
         margin-bottom: 10px;
         border: 0;
         background-color: #f0f1f4;
         font-style: italic;
-        width: 450px;
+        width: 100%;
         resize: none;
+        font-size: 40px;
+        outline: none;
 
     }
 
+    .contact-form textarea:focus {
+        transition: box-shadow 0.3s ease-in-out;
+        box-shadow: 0px 0px 20px #ff9a30;
+    }
+
     .contact-form button {
-        width: 210px;
-        padding: 15px;
+        width: 450px;
+        padding: 20px;
         border: none;
-        border-radius: 25px;
+        border-radius: 50px;
         font-weight: bold;
         color: #fff;
         background-image: linear-gradient(to right, rgba(255, 154, 48, 1) 0%, rgba(224, 111, 36, 1) 100%);
         transition: all 0.5s ease-in-out;
-        letter-spacing: 1px;
-        margin-top: 15px;
+        letter-spacing: 2px;
+        margin-top: 35px;
+        font-size: 35px;
 
 
     }
 
     .contact-form button:hover {
+        letter-spacing: 4px;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0px 0px 20px #ff9a30, 0px 0px 20px #ff9a30;
+    }
 
-        transition: all 0.5s ease-in-out;
-        background-image: linear-gradient(to left, rgba(255, 154, 48, 1) 0%, rgba(224, 111, 36, 1) 100%);
-        letter-spacing: 3px;
+    .contact-form button:focus {
+        outline: none;
+        box-shadow: 0px 0px 20px #ff9a30, 0px 0px 20px #ff9a30;
     }
 
 
 
     .Contact h2 {
-        font-size: 40px;
+        font-size: 60px;
         margin-bottom: 50px;
     }
 }
-
-
