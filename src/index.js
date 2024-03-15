@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './Contact.css'
 import Contact from './Contact';
+import Test from './Test';
 
 
 
@@ -10,6 +11,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         <Contact />
+
+        {/* <Test /> */}
     </React.StrictMode>
 );
 

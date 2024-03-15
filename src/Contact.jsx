@@ -1,4 +1,9 @@
+import { useState } from "react";
+
 const Contact = () => {
+
+
+
 
     return (
         <div className="Contact">
@@ -50,21 +55,32 @@ const Contact = () => {
                         </svg>
                         17870 Newhope St Ste 104 #480
                         <br />
-                        <div style={{marginLeft: "39px"}}>Fountain Valley, CA, 92708</div>
-                        
+                        <div style={{ marginLeft: "39px" }}>Fountain Valley, CA, 92708</div>
+
                     </li>
                 </ul>
             </div>
 
             <div className="contact-right">
                 <div className="contact-form">
-                    <h2>Get in touch</h2>
-                    <input type="text" placeholder="Name..." />
-                    <input type="email" placeholder="Email..." />
-                    <input type="number" placeholder="Phone number..." />
-                    <textarea name="message" id="contact-form-message" cols="5" rows="4" placeholder="Message..."></textarea>
 
-                    <button>SEND MESSAGE</button>
+                    <form action="">
+                        <h2>Get in touch</h2>
+                        <input type="text" placeholder="Name..." required/>
+                        <input type="email" placeholder="Email..." required/>
+                        <input type="tel" placeholder="Phone number..." pattern="[0-9]{10}"required/>
+                        <textarea name="message" id="contact-form-message" cols="5" rows="4" placeholder="Message..." required></textarea>
+
+                        <button
+                        
+
+
+                        >SEND MESSAGE</button>
+                        
+                    </form>
+
+
+
                 </div>
             </div>
 

@@ -68,6 +68,13 @@
         font-style: italic;
         width: 450px;
         font-size: 18px;
+    
+    }
+
+    .contact-form input:focus {
+        outline: none;
+        transition: box-shadow 0.3s ease-in-out;
+        box-shadow: 0px 0px 20px #ff9a30 ;
     }
 
     .contact-form textarea {
@@ -80,7 +87,13 @@
         width: 450px;
         resize: none;
         font-size: 18px;
+        outline: none;
 
+    }
+
+    .contact-form textarea:focus {
+        transition: box-shadow 0.3s ease-in-out;
+        box-shadow: 0px 0px 20px #ff9a30 ;
     }
 
     .contact-form button {
@@ -92,17 +105,16 @@
         color: #fff;
         background-image: linear-gradient(to right, rgba(255, 154, 48, 1) 0%, rgba(224, 111, 36, 1) 100%);
         transition: all 0.5s ease-in-out;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         margin-top: 15px;
 
 
     }
 
     .contact-form button:hover {
-
-        transition: all 0.5s ease-in-out;
-        background-image: linear-gradient(to left, rgba(255, 154, 48, 1) 0%, rgba(224, 111, 36, 1) 100%);
-        letter-spacing: 3px;
+        letter-spacing: 4px;
+        transition: all 0.4s ease-in-out;
+        box-shadow: 0px 0px 20px #ff9a30, 0px 0px 20px #ff9a30 ;
     }
 
 
